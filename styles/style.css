@@ -42,7 +42,7 @@
     }
 
     #welcome-section h1{
-        outline: magenta 1px solid;
+        /* outline: magenta 1px solid; */
         text-align: center;
         margin-top: auto;
         margin-bottom: 0;
@@ -50,7 +50,7 @@
     }
 
     #welcome-section p{
-        outline: blue 1px solid;
+        /* outline: blue 1px solid; */
         text-align: center;
         margin-top: 5px;
         margin-bottom: auto;
@@ -94,4 +94,28 @@
         text-align: center
     }
 
+    #welcome-section {
+        display: flex;
+        flex-direction: column;
+        background-color: #e0ebe8;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #welcome-section h1{
+        /* outline: magenta 1px solid; */
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: 0;
+        font-size: 100px;
+    }
+
+    #welcome-section p{
+        /* outline: blue 1px solid; */
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: auto;
+        font-size: 50px;
+        color: green;
+    }
 }
