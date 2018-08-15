@@ -30,12 +30,43 @@
         color: #008080;
         width: 10vw;
         font-size: 15px;
-
-
     }
 
 }
 
 @media (max-width: 999px) {
+
+    body{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    header{
+        position: fixed;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: #e0ebe8;
+        height: 8vh;
+        width: 100vw;
+    }
+
+    #navbar{
+        outline: magenta solid 1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    #navbar a {
+        outline: blue solid 1px;
+        color: #008080;
+        width: 100vw;
+        font-size: 45px;
+        text-align: center
+    }
 
 }
