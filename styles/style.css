@@ -17,7 +17,7 @@
     }
 
     #navbar{
-        outline: magenta solid 1px;
+        /* outline: magenta solid 1px; */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -26,12 +26,37 @@
     }
 
     #navbar a {
-        outline: blue solid 1px;
+        /* outline: blue solid 1px; */
         color: #008080;
         width: 10vw;
         font-size: 15px;
     }
 
+    #welcome-section {
+        display: flex;
+        flex-direction: column;
+        background-color: #e0ebe8;
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    #welcome-section h1{
+        outline: magenta 1px solid;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    #welcome-section p{
+        outline: blue 1px solid;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: auto;
+        font-size: 15px;
+        color: green;
+    }
 }
 
 @media (max-width: 999px) {
@@ -53,7 +78,7 @@
     }
 
     #navbar{
-        outline: magenta solid 1px;
+        /* outline: magenta solid 1px; */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -62,7 +87,7 @@
     }
 
     #navbar a {
-        outline: blue solid 1px;
+        /* outline: blue solid 1px; */
         color: #008080;
         width: 100vw;
         font-size: 45px;
