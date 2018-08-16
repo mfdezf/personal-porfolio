@@ -211,7 +211,7 @@
     }
 
     .projects-container{
-        outline: blue solid 1px;
+        /* outline: blue solid 1px; */
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -221,7 +221,7 @@
     }
 
     #projects .projects-group{
-        outline: magenta solid 1px;
+        /* outline: magenta solid 1px; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -256,5 +256,20 @@
         font-size: 40px;
     }
 
+    #profile-link{
+        border: #90C695 solid 5px;
+        color: #008080;
+        background: #e0ebe8;
+        width: 55vw;
+        height: 18vh;
+        text-decoration: none;
+        text-align: center;
+        font-size: 48px;
+        padding-top: 10px;
+        border-radius: 8px; 
+        padding-top: 2vh;  
+        margin-top: 2vh;
+
+    }
 
 }
