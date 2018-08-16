@@ -230,6 +230,31 @@
         height: 200vh;
     }
 
+    #projects div a{
+        border: lightblue solid 2px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        color: #008080;
+        height: 30vh;
+        width: 60vw;
+        
+    }
+
+    .project-pic {
+        /* outline: black solid 1px; */
+        width: 60vw;
+        height: 25vh;
+    }
+
+    #projects div a .projects-title{
+        border-top: lightblue solid 2px;
+        /* outline: red solid 1px; */
+        padding-top: 1vh;
+        font-size: 40px;
+    }
 
 
 }
