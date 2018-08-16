@@ -124,6 +124,21 @@
         border-radius: 4px;
         
     }
+    /* --------------------Contact------------------------- */
+
+    #contact{
+        width: 100vw;
+        height: 100vh;
+        background: #C8F7C5;
+    }
+
+    #contact h1{
+        outline: black solid 1px;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 25vh;
+        font-weight: normal;
+    }
 
 }
 
