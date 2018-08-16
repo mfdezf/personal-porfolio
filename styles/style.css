@@ -57,6 +57,75 @@
         font-size: 15px;
         color: green;
     }
+
+    /* --------------------Projects------------------------- */
+
+    #projects{
+        /* outline: green solid 1px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 130vh;
+        width: 100vw;
+    } 
+
+    .projects-container{
+        /* outline: blue solid 1px;     */
+    }
+
+    #projects h1{
+        /* outline: blue solid 1px; */
+        text-align: center;
+        margin-top: 7vh;
+        margin-bottom: 0vh;
+        font-size: 23px;
+        font-weight: normal;
+        color: #008080;
+    }
+
+    #projects .projects-group{
+        /* outline: magenta solid 1px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 70vw;
+        margin-top: 10vh;
+        margin-bottom: 7vh;
+    }
+
+    #projects div a{
+        border: lightblue solid 2px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        color: #008080;
+    }
+
+    #projects div a .projects-title{
+        border-top:lightblue solid 2px;
+        width: 300px;
+        height: 30px;
+        padding-top: 10px;
+    }
+
+    #profile-link{
+        border: #90C695 solid 2px;
+        color: #008080;
+        background: #e0ebe8;
+        width: 200px;
+        height: 30px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        padding-top: 10px;
+        border-radius: 4px;
+        
+    }
+
+
 }
 
 @media (max-width: 999px) {
