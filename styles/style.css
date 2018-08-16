@@ -194,7 +194,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 100vh;
+        height: 150vh;
         width: 100vw;
     } 
 
@@ -206,6 +206,30 @@
         font-size: 65px;
         font-weight: normal;
         color: #008080;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
+
+    .projects-container{
+        outline: blue solid 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 400vh;
+        width: 75vw;     
+    }
+
+    #projects .projects-group{
+        outline: magenta solid 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 75vw;
+        height: 200vh;
+    }
+
+
 
 }
