@@ -148,6 +148,35 @@
         font-size: 15px;
         margin-top: 1vh;
     }
+
+    #contact-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        outline: orange solid 1px;
+        height: 60vh;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact-links a{
+        display: inline-block;
+        border: #90C695 solid 2px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 15px;
+        border-radius: 100%;
+        text-decoration: none;
+        line-height: 100px;
+        white-space: nowrap;
+        background: #e0ebe8;
+
+    }
+
 }
 
 @media (max-width: 999px) {
@@ -207,7 +236,7 @@
         margin-top: 5px;
         margin-bottom: auto;
         font-size: 50px;
-        color: green;
+        color: #008080;
     }
 
 /* --------------------Projects------------------------- */
