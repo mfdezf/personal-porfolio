@@ -133,7 +133,7 @@
     }
 
     #contact h1{
-        outline: black solid 1px;
+        /* outline: black solid 1px; */
         font-size: 30px;
         text-align: center;
         padding-top: 25vh;
@@ -143,18 +143,18 @@
     }
 
     #contact p{
-        outline: magenta solid 1px;
+        /* outline: magenta solid 1px; */
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
         margin-top: 1vh;
     }
 
     #contact-links {
+        /* outline: orange solid 1px; */
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        outline: orange solid 1px;
         height: 60vh;
         width: 70vw;
         margin-left: auto;
@@ -168,13 +168,14 @@
         height: 100px;
         text-align: center;
         vertical-align: middle;
-        font-size: 15px;
+        font-size: 16px;
         border-radius: 100%;
         text-decoration: none;
         line-height: 100px;
         white-space: nowrap;
         background: #e0ebe8;
-
+        color: #008080;
+        font-weight: bold;
     }
 
 }
