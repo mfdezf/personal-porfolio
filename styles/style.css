@@ -328,12 +328,12 @@
 
     #contact{
         width: 100vw;
-        height: 100vh;
+        height: 150vh;
         background: #C8F7C5;
     }
 
     #contact h1{
-        outline: black solid 1px;
+        /* outline: black solid 1px; */
         font-size: 80px;
         text-align: center;
         padding-top: 25vh;
@@ -343,33 +343,34 @@
     }
 
     #contact p{
-        outline: magenta solid 1px;
+        /* outline: magenta solid 1px; */
         text-align: center;
         font-size: 45px;
         margin-top: 1vh;
     }
 
     #contact-links {
-        outline: orange solid 1px;
+        /* outline: orange solid 1px; */
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        height: 60vh;
+        height: 100vh;
         width: 80vw;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 10vh;
     }
 
     #contact-links a{
         display: inline-block;
-        border: #90C695 solid 2px;
+        border: #90C695 solid 6px;
         width: 275px;
         height: 275px;
         text-align: center;
         vertical-align: middle;
-        font-size: 16px;
+        font-size: 40px;
         border-radius: 100%;
         text-decoration: none;
         line-height: 275px;
