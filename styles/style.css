@@ -179,6 +179,24 @@
         font-weight: bold;
     }
 
+    /* --------------------Footer------------------------- */
+
+    footer{
+        outline: orange solid 1px;
+        height: 15vh;
+        background-color: #22313F;
+    }
+
+    footer p{
+        /* outline: magenta solid 1px; */
+        padding-top: 3vh;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        color: white;
+        font-size: 16px;
+    }
+    
 
 }
 
