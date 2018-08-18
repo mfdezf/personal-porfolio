@@ -139,7 +139,6 @@
         padding-top: 25vh;
         font-weight: normal;
         margin-bottom: 0;
-
     }
 
     #contact p{
@@ -324,5 +323,34 @@
         margin-top: 2vh;
 
     }
+
+    /* --------------------Contact------------------------- */
+
+    #contact{
+        width: 100vw;
+        height: 100vh;
+        background: #C8F7C5;
+    }
+
+    #contact h1{
+        outline: black solid 1px;
+        font-size: 80px;
+        text-align: center;
+        padding-top: 25vh;
+        font-weight: normal;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+
+    #contact p{
+        outline: magenta solid 1px;
+        text-align: center;
+        font-size: 45px;
+        margin-top: 1vh;
+    }
+
+
+
+
 
 }
