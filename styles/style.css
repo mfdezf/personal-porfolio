@@ -3,6 +3,7 @@
     body{
         font-family: 'Open Sans', sans-serif;
         font-size: 12px;
+        margin: 0;
     }
 
     header{
@@ -177,6 +178,7 @@
         font-weight: bold;
     }
 
+
 }
 
 @media (max-width: 999px) {
@@ -184,6 +186,7 @@
     body{
         font-family: 'Open Sans', sans-serif;
         font-size: 12px;
+        margin: 0;
     }
 
     header{
